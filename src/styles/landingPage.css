@@ -34,23 +34,31 @@ body {
 h1 {
   font-size: 5rem;
   margin: 0;
+  transform: translateY(400%);
   margin-top: 2rem;
   animation: fadeInText 700ms 0ms forwards;
+
 }
 
 h2 {
   font-size: 4rem;
   margin: 0;
+  transform: translateY(600%);
   margin-top: 2rem;
   animation: fadeInText 700ms 0ms forwards;
-  /* animation-delay: 300ms; */
+  animation-delay: 300ms;
+
 }
+
 
 h3 {
   font-size: 2rem;
   margin: 0;
   margin-top: 3rem;
+  transform: translateY(800%);
   animation: fadeInText 700ms 0ms forwards;
+  animation-delay: 500ms;
+
   /* animation-delay: 300ms; */
 }
 
