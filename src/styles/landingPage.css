@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+:root {
+    --main-bg-color: #C8B5A6;
+  }
+
+
+body {
+    background-color: var(--main-bg-color);
+    
+}
+
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    height: 100vh;
+  
+}
+
+.landing-logo{
+    background-color: black;
+    text-align: center;
+    width: 60%;
+    height:60%;
+}
+
+h1{
+    font-size: 4rem;
+    margin: 0;
+}
+
+h2{
+    font-size: 3rem;
+    margin: 0;
+}
