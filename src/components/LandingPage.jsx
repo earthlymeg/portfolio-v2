@@ -16,13 +16,14 @@ function LandingPage() {
   return (
     <div className={classes.root}>
         <CssBaseline/>
+        
       {/* <div className="landing-logo">
         
         <h1>MEG</h1> <br></br>
         <h2>SHULMISTER</h2> <br></br>
         <h3>Full Stack Developer</h3>
       </div> */}
-      <Header />
+        <Header />
     </div>
   );
 }
