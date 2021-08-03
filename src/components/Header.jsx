@@ -1,5 +1,5 @@
 import "../styles/header.css";
-import headshot from '../assets/portfolio2_headshot.png'
+import headshot from "../assets/portfolio2_headshot.png";
 function Header() {
   return (
     <header className="header">
@@ -14,14 +14,22 @@ function Header() {
           I'm a full-stack software engineer based in Rollinsville, Colorado.
           Thanks for stopping by.
         </p>
-        <div>
-          <button>Email Me</button>
-          <button>LinkedIn</button>
-          <button>GitHub</button>
-        </div>
+        
+          <button>
+            <a href="mailto:meganshulmister@gmail.com">Email Me</a>
+          </button>
+          <button>
+            <a href="https://www.linkedin.com/in/meganshulmister019/">
+              LinkedIn
+            </a>
+          </button>
+          <button>
+            <a href="https://github.com/earthlymeg">GitHub</a>
+          </button>
+        
         <div className="headshot">
-    <img src={headshot} alt="Meg Shulmister portfoli0"></img>
-    </div>
+          <img src={headshot} alt="Meg Shulmister portfoli0"></img>
+        </div>
       </section>
     </header>
   );
