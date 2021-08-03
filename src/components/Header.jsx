@@ -1,30 +1,30 @@
-import { makeStyles } from "@material-ui/core/styles";
-import { AppBar, IconButton, Toolbar } from "@material-ui/core";
-import MenuIcon from '@material-ui/icons/MenuOpen';
-const useStyles = makeStyles((theme) => ({
-    appbar: {
-        background: 'none',
-    },
-    appbarTitle: {
-        flexGrow: 1,
-    },
-    icon: {
-        fontSize: '2rem'
-    }
-}))
-
-
-function Header(){
-    const classes = useStyles();
-    return (
-        <AppBar className={classes.appbar} elevation={0}>
-            <Toolbar>
-            <h1 className={classes.appbarTitle}>Meg Shulmister</h1>
-            <MenuIcon/>
-           
-            </Toolbar>
-        </AppBar>
-    )
+import "../styles/header.css";
+import headshot from '../assets/portfolio2_headshot.png'
+function Header() {
+  return (
+    <header className="header">
+      <h3 className="name">Meg Shulmister</h3>
+      <section>
+        <h1>
+          {" "}
+          Hello,<br></br>
+          I'm Meg Shulmister
+        </h1>
+        <p>
+          I'm a full-stack software engineer based in Rollinsville, Colorado.
+          Thanks for stopping by.
+        </p>
+        <div>
+          <button>Email Me</button>
+          <button>LinkedIn</button>
+          <button>GitHub</button>
+        </div>
+        <div className="headshot">
+    <img src={headshot} alt="Meg Shulmister portfoli0"></img>
+    </div>
+      </section>
+    </header>
+  );
 }
 
-export default Header; 
+export default Header;
