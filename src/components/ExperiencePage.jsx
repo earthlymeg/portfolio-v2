@@ -6,8 +6,8 @@ function ExperiencePage() {
         <div className="experience-page">
             <h1>Experience Page</h1>
             <ProjectCard/>
-            <ProjectCard/>
-            <ProjectCard/>
+            {/* <ProjectCard/>
+            <ProjectCard/> */}
         </div>
     )
 }
