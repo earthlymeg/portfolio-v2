@@ -3,8 +3,9 @@ import headshot from "../assets/portfolio2_headshot.png";
 function Header() {
   return (
     <header className="header">
-      <h3 className="name">Meg Shulmister</h3>
       <section>
+      <div className="intro">
+      <h3 className="name">Meg Shulmister</h3>
         <h1>
           {" "}
           Hello,<br></br>
@@ -24,7 +25,7 @@ function Header() {
         <button>
           <a href="https://github.com/earthlymeg">GitHub</a>
         </button>
-
+</div>
         <div className="headshot">
           <img src={headshot} alt="Meg Shulmister portfoli0"></img>
         </div>
