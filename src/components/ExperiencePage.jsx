@@ -5,10 +5,10 @@ function ExperiencePage() {
     return (
         <div className="experience-page">
             <section>
-            <h1>Experience</h1>
+            <h2>Experience</h2>
             <ProjectCard/>
-            {/* <ProjectCard/>
-            <ProjectCard/> */}
+            <ProjectCard/>
+            <ProjectCard/>
             </section>
         </div>
     )

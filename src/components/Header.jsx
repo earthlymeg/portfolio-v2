@@ -15,7 +15,7 @@ function Header() {
             I'm a full-stack software engineer based in Rollinsville, Colorado.
             Thanks for stopping by.
           </p>
-
+          <div className="header-bts">
           <button>
             <a href="mailto:meganshulmister@gmail.com">Email Me</a>
           </button>
@@ -27,6 +27,7 @@ function Header() {
           <button>
             <a href="https://github.com/earthlymeg">GitHub</a>
           </button>
+          </div>
         </div>
         <div className="headshot">
           <img src={headshot} alt="Meg Shulmister portfoli0"></img>
