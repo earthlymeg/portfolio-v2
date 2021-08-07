@@ -2,3 +2,7 @@ html {
     background-color:#E8C7C8;
 }
 
+html, body {
+    position:relative;
+  overflow-x:hidden;
+}
