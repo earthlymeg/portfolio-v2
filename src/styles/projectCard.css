@@ -27,24 +27,18 @@
 @media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
   .card {
       flex-direction: row;
-      justify-content: center !important;
-      align-items: center !important;
-      margin-bottom: 3rem;
-      height:18rem !important;
-      width: 40rem !important;
-      /* background-color: white; */
-  }
 
+  }
+  .name-description {
+    flex-direction: column;
+    max-width: 50%;
+    
+  }
+/* 
   .card p {
       font-size: 2rem;
   }
 
-  .name-description {
-    flex-direction: column;
-    margin-left: 2rem;
-    max-width: 50%;
-    
-  }
   .card img {
     max-width: 50%;
   }
@@ -54,7 +48,7 @@
       margin: 0;
       padding-bottom: 1rem;
       padding-top: 1rem;
-  }
+  } */
 
 }
 
