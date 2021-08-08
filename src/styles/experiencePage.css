@@ -7,20 +7,21 @@
     margin-top: 5rem;
     height: 100%;
     margin-bottom: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+  
     
     
 }
 
-.experience-page img {
-    height: 100%;
-    width: 100%;
-}
 
 
 .experience-page section {
     min-height: 100vh;
+    min-width: 100vw;
     padding-top: 5rem;
     margin-bottom: 15rem;
+  
   
     
 
@@ -34,7 +35,8 @@
     .experience-page {
       /* align-items: flex-start; */
       height: auto;
-      margin: 1.5rem;
+      /* 
+       */
       
 
     }
@@ -42,11 +44,11 @@
     .experience-page h2 {
         font-size: 3rem;
     }
-    .experience-page section {
+    /* .experience-page section {
         height: 100vh;
         padding-top: 5rem;
         margin-bottom: 0rem;
-    }
+    } */
     
 
 }

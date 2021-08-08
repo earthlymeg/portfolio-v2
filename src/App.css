@@ -1,8 +1,9 @@
 html {
-    background-color:#f0e3e3;
+  background-color: #f0e3e3;
 }
 
-html, body {
-    position:relative;
-  overflow-x:hidden;
+html,
+body {
+  position: relative;
+  overflow-x: hidden;
 }
