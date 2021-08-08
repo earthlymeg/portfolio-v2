@@ -1,17 +1,24 @@
 .card {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  height: 13rem;
+  height: 22rem;
   width: 20rem;
-  
   border-radius: 1%;
-  margin-bottom: 7rem;
   text-align: left;
 }
 
 .card h1 {
   margin-bottom: 1rem;
+}
+
+.card img {
+  height: 60%;
+  width: 100%;
+}
+
+.name-description {
+  padding-left: 1rem;
+  height: auto;
 }
 
 
@@ -21,7 +28,7 @@
   .card {
       flex-direction: row;
       justify-content: center !important;
-    
+      align-items: center !important;
       margin-bottom: 3rem;
       height:18rem !important;
       width: 40rem !important;
