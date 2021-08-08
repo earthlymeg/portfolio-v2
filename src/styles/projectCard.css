@@ -27,17 +27,31 @@
 @media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
   .card {
       flex-direction: row;
+      align-items: center;
+      width: 40rem;
 
   }
+
+  .card h3 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  .card img {
+    height: 70%;
+    /* width: 100%; */
+  }
   .name-description {
+    height: auto;
     flex-direction: column;
     max-width: 50%;
+    padding-left: 2rem;
     
   }
-/* 
   .card p {
-      font-size: 2rem;
+      font-size: 1.5rem;
   }
+/* 
 
   .card img {
     max-width: 50%;
