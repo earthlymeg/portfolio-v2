@@ -5,26 +5,30 @@ function Header() {
     <header className="header">
       <section>
         <div className="intro">
-          <h3 className="name">Meg Shulmister</h3>
-          <h1>
+          <h3 className="name"
+          data-testid="h3-name"
+          >Meg Shulmister</h3>
+          <h1 data-testid="h1-intro">
             {" "}
             Hello,<br></br>
             I'm Meg Shulmister
           </h1>
-          <p>
+          <p data-testid="p-intro">
             I'm a full-stack software engineer based in Rollinsville, Colorado.
             Thanks for stopping by.
           </p>
           <div className="header-bts">
-          <button>
+          <button data-testid="email-btn">
             <a href="mailto:meganshulmister@gmail.com">Email Me</a>
           </button>
-          <button>
-            <a href="https://www.linkedin.com/in/meganshulmister019/">
+          <button >
+            <a 
+            data-testid="linkedin-button"
+            href="https://www.linkedin.com/in/meganshulmister019/">
               LinkedIn
             </a>
           </button>
-          <button>
+          <button data-testid="github-button">
             <a href="https://github.com/earthlymeg">GitHub</a>
           </button>
           </div>

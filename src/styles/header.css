@@ -46,12 +46,16 @@ button {
 	padding: .5rem;
 	font: inherit;
   border-radius: 15px;
-  transition: all 300ms ease-in; 
+  animation: button-hover-out 600ms;
+  
   
 }
 button:hover {
   cursor: pointer;
   background-color: rgb(123, 214, 223);
+  animation: button-hover 600ms;
+  animation-fill-mode: forwards;
+
   
 
 
@@ -84,6 +88,31 @@ a {
   }
   100% {
     transform: translateY(0)
+  }
+}
+
+@keyframes button-hover {
+  0% {
+    transform:translate(0,0);
+
+    
+  }
+  100% {
+    transform:translate(10%,-10%);
+    
+  }
+}
+
+@keyframes button-hover-out {
+  0% {
+    
+    transform:translate(10%,-10%);
+    
+  }
+  100% {
+    
+    transform:translate(0,0);
+    
   }
 }
 
