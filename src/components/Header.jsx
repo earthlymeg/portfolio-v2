@@ -1,6 +1,15 @@
+import { useEffect } from "react";
 import "../styles/header.css";
 import headshot from "../assets/portfolio2_headshot.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Header() {
+
+    useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <header className="header">
       <section>
@@ -34,7 +43,8 @@ function Header() {
           </div>
         </div>
         <div className="headshot">
-          <img src={headshot} alt="Meg Shulmister portfoli0"></img>
+          <img src={headshot} alt="Meg Shulmister portfoli0"
+          ></img>
         </div>
       </section>
     </header>

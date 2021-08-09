@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Montserrat;
+src: url('./fonts/Montserrat/Montserrat-Light.ttf')
+       
+}
+
 html {
   background-color: #f0e3e3;
 }
@@ -6,4 +12,5 @@ html,
 body {
   position: relative;
   overflow-x: hidden;
+  font-family: Montserrat;
 }
