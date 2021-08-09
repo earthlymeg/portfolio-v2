@@ -3,6 +3,10 @@ import "../styles/header.css";
 import headshot from "../assets/portfolio2_headshot.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {FiArrowUpRight} from 'react-icons/fi';
+
+//FiArrowUpRight
+
 function Header() {
 
     useEffect(() => {
@@ -28,17 +32,17 @@ function Header() {
           </p>
           <div className="header-bts">
           <button data-testid="email-btn">
-            <a href="mailto:meganshulmister@gmail.com">Email Me</a>
+            <a href="mailto:meganshulmister@gmail.com">Email<FiArrowUpRight/></a>
           </button>
           <button >
             <a 
             data-testid="linkedin-button"
             href="https://www.linkedin.com/in/meganshulmister019/">
-              LinkedIn
+              LinkedIn<FiArrowUpRight/>
             </a>
           </button>
           <button data-testid="github-button">
-            <a href="https://github.com/earthlymeg">GitHub</a>
+            <a href="https://github.com/earthlymeg">GitHub<FiArrowUpRight/></a>
           </button>
           </div>
         </div>
