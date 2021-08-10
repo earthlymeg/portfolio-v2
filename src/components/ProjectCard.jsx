@@ -3,7 +3,7 @@ import "../styles/projectCard.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-function ProjectCard() {
+function ProjectCard({name, image, technology, github}) {
 
   useEffect( () => {
     AOS.init({
@@ -17,12 +17,13 @@ function ProjectCard() {
     className="card"
     data-aos="fade-right"
     >
-      <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"></img>
+      <img src={image} alt={name} />
       <div className="name-description">
-        <h3>Lorem Ipsum</h3>
+        <h3>{name}</h3>
         <p>
-          Full-Stack application built with React, node.js, and Postgresql
+          {technology}
         </p>
+        <a href={github}>Github</a>
       </div>
     </div>
   );
