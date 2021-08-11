@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   bottom: 0;
+  clear: both;
 }
 .footer a {
   font-weight: 1000;
@@ -29,22 +30,32 @@
 }
 
 @media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
-  footer {
+  .footer {
     flex-direction: row;
-    align-items: baseline;
-    /* margin-left: 2rem; */
+    align-items: center;
+    justify-content: space-between;
   }
 
   .footer h3 {
     font-size: 1.5rem;
     font-weight: 700;
-    display: inline-block !important;
+    display: inline !important;
+    float: left !important;
     width: fit-content;
+    
   }
 
   .footer-btns{
     width: fit-content;
-    display: inline-block !important;
+    display: inline !important;
+    max-height: fit-content;
+    float: right;
+    
+  }
+
+  .footer button {
+ 
+    padding: 1;
   }
 
   .footer a {
