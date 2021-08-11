@@ -4,7 +4,7 @@ import headshot from "../assets/portfolio2_headshot.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {FiArrowUpRight} from 'react-icons/fi';
-
+import wave from '../assets/wave.png';
 //FiArrowUpRight
 
 function Header() {
@@ -49,8 +49,10 @@ function Header() {
         <div className="headshot">
           <img src={headshot} alt="Meg Shulmister portfoli0"
           ></img>
-         
         </div>
+         {/* <img src={wave} 
+         className="wave"
+         alt=""></img> */}
       </section>
     </header>
   );
