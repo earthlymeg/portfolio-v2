@@ -15,7 +15,7 @@ function App() {
     <div className='App'>
     <Header />
     <ExperiencePage/>
-    {/* <Footer/> */}
+    <Footer/>
     </div>
   );
 }
