@@ -52,7 +52,7 @@ h1 {
 .header a {
   font-weight: 1000;
 }
-button:hover {
+.header button:hover {
   cursor: pointer;
   background-color: rgb(123, 214, 223);
   animation: button-hover 600ms;

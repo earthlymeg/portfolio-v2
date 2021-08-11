@@ -49,6 +49,7 @@ function Header() {
         <div className="headshot">
           <img src={headshot} alt="Meg Shulmister portfoli0"
           ></img>
+         
         </div>
       </section>
     </header>
