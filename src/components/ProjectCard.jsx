@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { ImGithub } from 'react-icons/im'
 import "../styles/projectCard.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -10,6 +11,8 @@ function ProjectCard({name, image, technology, github}) {
         duration : 2000
       });
   }, [])
+
+  console.log('image from Pc', window.location.origin + image)
   
   return (
     <div 
@@ -23,7 +26,7 @@ function ProjectCard({name, image, technology, github}) {
         <p>
           {technology}
         </p>
-        <a href={github}>Github</a>
+        <a href={github}><span className="github-icon">GitHub</span>          < ImGithub className="github-icon"/></a>
       </div>
     </div>
   );
