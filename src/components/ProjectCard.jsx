@@ -26,7 +26,7 @@ function ProjectCard({name, image, technology, github}) {
         <p>
           {technology}
         </p>
-        <a href={github}><span className="github-icon">GitHub</span>          < ImGithub className="github-icon"/></a>
+        <a href={github} target="_blank" rel="noreferrer"><span className="github-icon">GitHub</span>          < ImGithub className="github-icon"/></a>
       </div>
     </div>
   );

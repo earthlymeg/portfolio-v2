@@ -32,17 +32,21 @@ function Header() {
           </p>
           <div className="header-bts">
           <button data-testid="email-btn">
-            <a href="mailto:meganshulmister@gmail.com">Email<FiArrowUpRight/></a>
+            <a href="mailto:meganshulmister@gmail.com"          
+            >Email<FiArrowUpRight/></a>
           </button>
           <button >
             <a 
+            target="_blank" rel="noreferrer"
             data-testid="linkedin-button"
             href="https://www.linkedin.com/in/meganshulmister019/">
               LinkedIn<FiArrowUpRight/>
             </a>
           </button>
           <button data-testid="github-button">
-            <a href="https://github.com/earthlymeg">GitHub<FiArrowUpRight/></a>
+            <a href="https://github.com/earthlymeg"
+            target="_blank" rel="noreferrer"
+            >GitHub<FiArrowUpRight/></a>
           </button>
           </div>
         </div>

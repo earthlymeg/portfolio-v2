@@ -10,7 +10,7 @@ const projects = [
         name: 'E-Commerce Website',
         img: 'portfolio-photos/fec2.jpg',
         technology: 'JavaScript, React, Node.js/Express.js, Docker, Amazon Web Services, HTML, CSS, Bootstrap, REST API',
-        github: 'https://github.com/Acme-Coding-Co',
+        github: 'https://github.com/Acme-Coding-Co/related-items-service',
         deployed: ''
     }, {
         name: 'Database Design',

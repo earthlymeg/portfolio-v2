@@ -1,4 +1,6 @@
 .wave {
+  height: 100%;
+  width: 100%;
   margin-top: -4rem;
 }
 
@@ -31,3 +33,9 @@
    margin-top: -6rem;
  }
 }
+
+@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  .wave{
+    margin-top: -10rem;
+  }
+ }
