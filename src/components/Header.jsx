@@ -37,12 +37,16 @@ function Header() {
           <button >
             <a 
             data-testid="linkedin-button"
-            href="https://www.linkedin.com/in/meganshulmister019/">
+            href="https://www.linkedin.com/in/meganshulmister019/"
+            target="_blank" rel="noopener noreferrer"
+            >
               LinkedIn<FiArrowUpRight/>
             </a>
           </button>
           <button data-testid="github-button">
-            <a href="https://github.com/earthlymeg">GitHub<FiArrowUpRight/></a>
+            <a href="https://github.com/earthlymeg"
+            target="_blank" rel="noopener noreferrer"
+            >GitHub<FiArrowUpRight/></a>
           </button>
           </div>
         </div>

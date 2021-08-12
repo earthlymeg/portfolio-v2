@@ -16,10 +16,14 @@ function Footer() {
           <a href="mailto:meganshulmister@gmail.com">Email<FiArrowUpRight/></a>
         </button>
         <button >
-          <a href="https://www.linkedin.com/in/meganshulmister019/">LinkedIn<FiArrowUpRight/></a>
+          <a href="https://www.linkedin.com/in/meganshulmister019/"
+          target="_blank" rel="noopener noreferrer"
+          >LinkedIn<FiArrowUpRight/></a>
         </button >
         <button >
-          <a href="https://github.com/earthlymeg">GitHub<FiArrowUpRight/></a>
+          <a href="https://github.com/earthlymeg"
+          target="_blank" rel="noopener noreferrer"
+          >GitHub<FiArrowUpRight/></a>
         </button>
         </div>
       </div>
