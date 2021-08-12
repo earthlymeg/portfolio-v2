@@ -17,9 +17,13 @@ section {
 
 .wave {
   position: relative;
-  top: 15rem !important;
+  /* top: 30rem !important; */
+  height: 100%;
+  width: 100%;
+  bottom: -7rem;
+  /* margin-bottom: 50rem; */
   /* margin-top: 10rem;
-  margin-bottom: 10rem;
+  
   z-index: 10;
   display: block; */
 }
