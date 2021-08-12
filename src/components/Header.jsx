@@ -50,9 +50,7 @@ function Header() {
           <img src={headshot} alt="Meg Shulmister portfoli0"
           ></img>
         </div>
-         <img src={wave} 
-         className="wave"
-         alt=""></img>
+     
       </section>
     </header>
   );

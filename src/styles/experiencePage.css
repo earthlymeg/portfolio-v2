@@ -1,3 +1,7 @@
+.wave {
+  margin-top: -4rem;
+}
+
 .experience-page {
   display: flex;
   flex-direction: column;
@@ -8,7 +12,7 @@
 }
 
 .experience-page h2 {
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 /* ipad */
 
@@ -20,4 +24,10 @@
   .experience-page h2 {
     font-size: 3rem;
   }
+}
+
+@media only screen and (min-device-width: 815px) and (-webkit-min-device-pixel-ratio: 1) {
+ .wave{
+   margin-top: -6rem;
+ }
 }
