@@ -10,15 +10,17 @@
 }
 
 .meg {
-    animation: 1s ease-in 0s 1 fallFromTop;
+    animation: 1.5s ease-in 0s 1 fallFromTop;
+    animation-fill-mode: forwards;
 
 
 }
 
 .shulmister {
     
-    animation: 1s ease-in 0s 1 riseBottom;
+    animation: 1.5s ease-in 0s 1 riseBottom;
     margin-top: 0;
+    animation-fill-mode: forwards;
 
 }
 
@@ -26,8 +28,14 @@
     0% {
       transform: translateY(-100%);
     }
-    100% {
+
+    50% {
+
       transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+      opacity: 0;
     }
   }
 
@@ -36,8 +44,14 @@
     0% {
       transform: translateY(100%);
     }
-    100% {
+
+    50% {
+
       transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100%);
+      opacity: 0;
     }
   }
   

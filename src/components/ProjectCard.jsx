@@ -12,7 +12,7 @@ function ProjectCard({name, image, technology, github}) {
       });
   }, [])
 
-  console.log('image from Pc', window.location.origin + image)
+  
   
   return (
     <div 
