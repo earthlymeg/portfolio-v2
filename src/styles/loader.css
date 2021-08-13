@@ -1,0 +1,43 @@
+.loader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 4rem;
+    /* text-align: left; */
+    
+}
+
+.meg {
+    animation: 1s ease-in 0s 1 fallFromTop;
+
+
+}
+
+.shulmister {
+    
+    animation: 1s ease-in 0s 1 riseBottom;
+    margin-top: 0;
+
+}
+
+@keyframes fallFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+@keyframes riseBottom {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  

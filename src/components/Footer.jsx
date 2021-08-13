@@ -1,8 +1,7 @@
 
 import '../styles/footer.css'
 import {FiArrowUpRight} from 'react-icons/fi';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 function Footer() {
 

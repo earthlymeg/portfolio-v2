@@ -4,7 +4,7 @@ import headshot from "../assets/portfolio2_headshot.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {FiArrowUpRight} from 'react-icons/fi';
-import wave from '../assets/wave.png'
+
 
 
 function Header() {

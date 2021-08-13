@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import ProjectCard from "./ProjectCard";
 import "../styles/experiencePage.css";
 import projects from "../projectData";
